@@ -198,3 +198,109 @@ input:hover {
     font-size: 13px;
     float: left;
 }
+
+.sidebar {
+    float: right;
+    padding: 30px 20px;
+    width: 25%;
+}
+
+.clearfix2::before,
+.clearfix2::after {
+    content: "";
+    display: table;
+}
+
+.clearfix2::after {
+    clear: both;
+}
+
+.p-img {
+    cursor: pointer;
+    height: 85px;
+    padding: 10px 0;
+}
+
+.p-img img {
+    width: 23%;
+    border-radius: 4px;
+    float: right;
+    height: 100%;
+}
+
+.p-img p {
+    padding-right: 12px;
+    font-size: 13px;
+    float: right;
+    width: 67%;
+}
+
+.p-img:hover {
+    background-color: rgb(228, 222, 222);
+    transition: 0.2s;
+    border-radius: 3px;
+}
+
+.p-img:hover p {
+    color: black;
+    font-size: 15px;
+}
+
+.p-img span {
+    font-size: 11px;
+    float: right;
+    width: 75%;
+    padding-right: 12px;
+    color: rgb(172, 167, 167);
+}
+
+.p-img a {
+    text-decoration: none;
+    color: #3a3838;
+}
+
+#border {
+    padding: 15px;
+    width: 100%;
+    border-bottom: solid 1px #e4e4e4;
+}
+
+.end {
+    padding: 30px 0;
+}
+
+.end img {
+    width: 100%;
+    height: 170px;
+    border-radius: 4px;
+}
+
+.img-end {
+    position: relative;
+}
+
+.img-end a {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    text-decoration: none;
+    padding: 7px;
+    background-color: chartreuse;
+    color: white;
+    border-radius: 2px;
+    font-size: 11px;
+}
+
+.img-end a:hover {
+    background-color: rgb(34, 202, 34);
+}
+
+.end p {
+    color: #3a3838;
+    font-size: 14px;
+}
+
+.end span {
+    font-size: 12px;
+    color: rgb(172, 167, 167);
+}
