@@ -1,0 +1,123 @@
+@font-face {
+    font-family: IRANSansWeb;
+    src: url(fonts/IRANSansWeb.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: IRANSansWeb;
+    src: url(fonts/IRANSansWeb_Light.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: IRANSansWeb;
+    src: url(fonts/IRANSansWeb_Medium.woff);
+    font-weight: 500;
+}
+
+body {
+    font-family: IRANSansWeb;
+    background-color: #eee;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.container {
+    max-width: 1320;
+    margin: 0 auto;
+}
+
+.aside {
+    float: right;
+    padding: 30px;
+    width: 25%;
+}
+
+.title {
+    padding-bottom: 10px;
+    border-bottom: solid 3px #5aa738;
+    width: 116px;
+    font-size: 10px;
+    color: #2d3031;
+    margin-bottom: 20px;
+}
+
+.paragraph p {
+    padding: 0 0 32px;
+    font-size: 13px;
+    border-bottom: solid 1px #e4e4e4;
+}
+
+form {
+    padding: 35px 0px;
+    position: relative;
+}
+
+.fa-search {
+    position: absolute;
+    right: 15px;
+    bottom: 55px;
+    color: #c2c2c3;
+}
+
+.fa-chevron-circle-left {
+    position: absolute;
+    left: 15px;
+    bottom: 55px;
+    color: #7fbb00;
+}
+
+form input {
+    width: 100%;
+    padding: 15px 45px;
+    font-size: 12px;
+    font-family: IRANSansWeb;
+    color: #dadde1;
+    background-color: white;
+    border: solid 1px #e4e4e4;
+}
+
+input:focus {
+    border: solid 1px black;
+}
+
+input:hover {
+    box-shadow: 4px 4px rgb(223, 217, 217);
+}
+
+.link a {
+    text-decoration: none;
+    color: #454545;
+    display: block;
+    font-size: 14px;
+    border-top: solid 1px #e4e4e4;
+    padding: 20px 0;
+}
+
+.link i {
+    color: #454545;
+}
+
+.link a:hover {
+    color: #928d8d;
+}
+
+.link a:hover i {
+    color: #928d8d;
+}
