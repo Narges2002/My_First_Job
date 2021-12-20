@@ -121,3 +121,80 @@ input:hover {
 .link a:hover i {
     color: #928d8d;
 }
+
+.main {
+    margin-top: 30px;
+    width: 50%;
+    background-color: white;
+    float: right;
+}
+
+.img img {
+    width: 100%;
+}
+
+.text {
+    padding: 30px;
+    margin-top: -50px;
+}
+
+.article a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: chartreuse;
+}
+
+.article a:hover {
+    background-color: rgb(34, 202, 34);
+}
+
+.text h1 {
+    font-size: 21px;
+    padding: 26px 0 17px;
+    color: #2d3031;
+}
+
+.text p {
+    font-size: 15px;
+    color: #707679;
+    padding-bottom: 50px;
+}
+
+.clear-fix::before,
+.clear-fix::after {
+    content: "";
+    display: table;
+}
+
+.clear-fix::after {
+    clear: both;
+}
+
+.button a {
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 30px;
+    color: #bba9c0;
+    font-size: 13px;
+    border: solid #e2e2e2 2px;
+}
+
+.button a:hover {
+    box-shadow: 3px 3px rgb(201, 195, 195);
+}
+
+#writer {
+    float: left;
+    margin-right: 10px;
+}
+
+.button span {
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 30px;
+    background-color: rgb(238, 246, 247);
+    font-size: 13px;
+    float: left;
+}
